@@ -13,7 +13,7 @@ const images = [
     "https://that-one-axolotl.github.io/share/images/draw-a-lotl.png"
 ]
 
-fetch("./subCount.json")
+fetch("./subCount.json", { cache: 'no-store' })
 .then(res => res.json())
 .then((data) => {
     subs = data.subs
