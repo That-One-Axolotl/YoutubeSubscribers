@@ -19,7 +19,7 @@ fetch("./subCount.json", { cache: 'no-store' })
     subs = data.subs
     lastUpdated = data.lastUpdated;
     document.getElementById("lastUpdated").textContent = `Last Updated: ${Math.floor((Date.now() - new Date(lastUpdated)) / 3600000)} Hours Ago`;
-    
+    document.getElementById("subCount").textContent = `Current Subscribers: ${subs}`;
     
     createImages(subs);
 })
