@@ -1,0 +1,14 @@
+{
+  "name": "youtubesubscribers",
+  "version": "1.0.0",
+  "description": "A site that dispays all my youtube subscribers as axolotls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "That One Axolotl",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
