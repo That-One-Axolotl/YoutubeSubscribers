@@ -11,8 +11,12 @@ permissions:
   contents: write
 
 jobs:
-  update-rss-file:
+  update-subs-file:
     runs-on: ubuntu-latest
+
+    env:
+      YOUTUBEAPISTRING: ${{ secrets.YOUTUBEAPISTRING }}
+      
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
