@@ -35,7 +35,6 @@ function createImages(elementsToCreate){
         img.style.transform = 'rotate(' + ((Math.random() * 180) - 90) + 'deg)';
         img.style.mixBlendMode = "multiply";
 
-        img.width = "10vw";
         container.appendChild(img)
         console.log(src);
 
